@@ -13,6 +13,9 @@ export class QuoteComponent implements OnInit {
     new Quote(3,'Be yourself; everyone else is already taken', 'Oscar Wilde'),
     new Quote(4,'This above all: to thine own self be true', 'William Shakespeare'),
   ];
+  toggleDetails(index){
+    this.quotes[index].showName=!this.quotes[index].showName;
+  }
 
   constructor() { }
 
