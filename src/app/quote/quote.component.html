@@ -1,1 +1,11 @@
-<p>quote works!</p>
+<p>Qoutes App</p>
+<div class="container">
+  <h1>These are my Quotes</h1>
+  <ul>
+    <li *ngFor='let quote of quotes be'>{{quote.text}} by <strong>{{quote.author}}</strong>
+    <br> 
+    <button>More</button>
+    </li>
+
+  </ul>
+</div>
