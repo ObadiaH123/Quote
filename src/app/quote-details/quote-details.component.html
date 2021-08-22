@@ -1,6 +1,6 @@
-<h6 class="card-subtitle"> Author- {{quoty.author}} <span id="when">Added: {{quoty.datePosted|datePipe}} days ago</span> </h6>
+<h6 class="card-subtitle"> Author- {{quoty.author}} <span id="when">Created: {{quoty.datePosted|datePipe}} days ago</span> </h6>
 <div class="container-fluid" id="buttons">
-    <button class="btn btn-sm btn-success" (click)='upvote()'>Upvote-{{quoty.likes}}</button>
-    <button class="btn btn-sm hate" id="hate" (click)='downvote()'>Downvote-{{quoty.dislikes}}</button>
+    <button class="btn btn-sm btn-success" (click)='upvote()'>Like-{{quoty.likes}}</button>
+    <button class="btn btn-sm hate" id="hate" (click)='downvote()'>Dislike-{{quoty.dislikes}}</button>
     <button class="btn btn-sm btn-danger" id="del" (click)='deleteQuote(true)'>Delete</button>
 </div>
