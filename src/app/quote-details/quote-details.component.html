@@ -1,14 +1,6 @@
-<div>
-    <p><em>Author</em> :<span>{{quote.author}}</span></p>
-    <div>
-        <button (click)="likeButtonClick(quote)" id="votes">Like {{quote.upvote}}</button>
-        <button (click)="dislikeButtonClick(quote)" id="votes1">Dislike {{quote.downvote}}</button>
-    </div>
-    <p>Added a while ago</p>
-    <a class="btn btn-danger" (click)='deletequote(quote)'>Delete Quote</a>
+<h6 class="card-subtitle"> Author- {{quoty.author}} <span id="when">Added: {{quoty.datePosted|datePipe}} days ago</span> </h6>
+<div class="container-fluid" id="buttons">
+    <button class="btn btn-sm btn-success" (click)='upvote()'>Upvote-{{quoty.likes}}</button>
+    <button class="btn btn-sm hate" id="hate" (click)='downvote()'>Downvote-{{quoty.dislikes}}</button>
+    <button class="btn btn-sm btn-danger" id="del" (click)='deleteQuote(true)'>Delete</button>
 </div>
-<!-- <span>{{numberOfLike}}</span>
-<button (click)='likeButtonClick()'>Like</button>
-<button (click)='dislikeButtonClick()'>Dislike</button>
-<span>{{numberOfDislike}}</span>
-<button (click)= 'quoteComplete(true)'>Delete</button> -->
