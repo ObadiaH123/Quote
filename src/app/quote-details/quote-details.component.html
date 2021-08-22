@@ -1,1 +1,14 @@
-<p>{{quote.author}}</p>
+<div>
+    <p><em>Author</em> :<span>{{quote.author}}</span></p>
+    <div>
+        <button (click)="likeButtonClick(quote)" id="votes">Like {{quote.upvote}}</button>
+        <button (click)="dislikeButtonClick(quote)" id="votes1">Dislike {{quote.downvote}}</button>
+    </div>
+    <p>Added a while ago</p>
+    <a class="btn btn-danger" (click)='deletequote(quote)'>Delete Quote</a>
+</div>
+<!-- <span>{{numberOfLike}}</span>
+<button (click)='likeButtonClick()'>Like</button>
+<button (click)='dislikeButtonClick()'>Dislike</button>
+<span>{{numberOfDislike}}</span>
+<button (click)= 'quoteComplete(true)'>Delete</button> -->

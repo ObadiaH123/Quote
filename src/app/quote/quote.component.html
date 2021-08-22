@@ -1,12 +1,12 @@
 
-<div class="container">
-  <h1>These are my Quotes</h1>
+<div class='container' id="quotes">
+  <h1>THESE ARE MY QUOTES</h1>
   <ul>
-    <li *ngFor='let quote of quotes; let i=index'>{{quote.text}} by <strong>{{quote.author}}</strong>
-    <br>
-    <app-quote-details *ngIf='quote.showName'[quote]='quote'></app-quote-details>
-    <button (click)='toggleDetails(i)' >More</button>
+    <li *ngFor='let quote of quotes;let i=index'>{{quote.text}} by <strong>{{quote.author}}</strong>
+      <br>
+      <button (click)='toggleDetails(i)' class="btn btn-success">More details</button> <br>
+      <app-quote-details *ngIf='quote.showName' [quote]='quote' (deletequoteevent)='deleteQuote($event,i)' (likequoteevent)='likeQuote($event,i)' (dislikequoteevent)='dislikeQuote($event,i)'  ></app-quote-details>
     </li>
-
+    
   </ul>
 </div>
