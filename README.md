@@ -5,6 +5,10 @@
 # Developed by:
 ### Kiprotich Bett Bernard
 
+# Description
+It is an application that allow users to create their own quotes.There is also an option where the user can give the quote a thumbs up or a thumbs down.
+This project was generated with Angular CLI version 12.2.1.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
 
 ## Development server
