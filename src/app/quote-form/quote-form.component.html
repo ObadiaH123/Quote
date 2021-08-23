@@ -39,7 +39,7 @@
             <label for="completeDate">Created On</label>
             <input type='date' id="completeDate" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
             <div [hidden]="completeDate.valid || completeDate.pristine" class="alert alert-danger">
-                <p>Date is required</p>
+                <!-- <p>Date is required</p> -->
               </div>
         </div>
         <button type="submit" class="btn btn-success">Add Quote</button>

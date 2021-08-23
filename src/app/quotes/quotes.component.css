@@ -16,7 +16,7 @@
         }
         
         .overlay {
-            background-color: lightseagreen;
+            background: url('https://images.unsplash.com/photo-1526324502790-ad8c7c6076df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80') no-repeat;
             margin-top: 4%;
             margin-left: 4%;
             margin-right: 4%;
@@ -58,7 +58,7 @@
         }
         
         .card-title {
-            color: darkcyan;
+            color: aqua;
             font-weight: bold;
         }
         
@@ -68,6 +68,35 @@
             font-size: 18px;
         }
         
-        #param {
-            color: black;
+        * {
+            overflow: hidden;
+            font-family: 'Trochut', cursive;
+        }
+        .navbar-brand {
+            color: white;
+            font-size: 2rem;
+        }
+        h1 {
+            font-size: 2rem;
+            text-align: center;
+            font-family: 'Trochut', cursive;
+            color: black
+        
+        }
+        .home {
+            display: flex;
+        
+        }
+        .quote-box {
+            position: relative;
+            top: 200px;
+            right: -100px;
+            color: white;
+        }
+        .header {
+            background: url('https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80');
+        }
+        h2{
+            font-family: 'Trochut', cursive;
+            color:red;
         }

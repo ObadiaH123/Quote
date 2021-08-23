@@ -10,9 +10,9 @@ export class QuotesComponent implements OnInit {
 
   title = 'Awesome quotes';
   quotes:Quote[] = [
-    new Quote (1,'Gilbert Pretorio','Lessons of failure','It’s fine to celebrate success but it is more important to heed the lessons of failure.','Bill Gates', new Date(2021,3,14),0,0),
-    new Quote (2,'Ibrahim kiprotich','Future and Attitude','The greatest discovery of all time is that a person can change his future by merely changing his attitude.','Oprah Winfrey',new Date(2020,7,10),0,0),
-    new Quote (3,'Kelvin Chepkuta','Choices in Life','There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them.','Denis Waitley',new Date(2020,2,1),0,0)
+    new Quote (1,'Salim Kiprono','Programming Quote','stack developer is  web developer or engineer who works with both the front and back ends of a website or application—meaning they can tackle projects that involve databases, building user-facing websites, or even work with clients during the planning phase of projects.','Bill Gates', new Date(2021,3,14),0,0),
+    new Quote (2,'Dorcas Chebet','Love Quotes','Love is an untamed force. When we try to control it, it destroys us. When we try to imprison it, it enslaves us. When we try to understand it, it leaves us feeling lost and confused.','L C Devis',new Date(2020,7,10),0,0),
+    new Quote (3,'Den Motigo','Motivational Quotes','Learn as if you will live forever, live like you will die tomorrow.','Mahatma Gadhi',new Date(2020,2,1),0,0)
     
   ];
 
