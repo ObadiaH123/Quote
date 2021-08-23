@@ -1,5 +1,5 @@
 # Project Name
-## My Quote App
+### My Quote App
 
 
 # Quote
