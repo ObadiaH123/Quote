@@ -74,7 +74,10 @@
         }
         .navbar-brand {
             color: white;
-            font-size: 2rem;
+            font-size: 40px;
+            font-weight: bold;
+            font-family: 'Special Elite', cursive;
+            text-align: center;
         }
         h1 {
             font-size: 2rem;
