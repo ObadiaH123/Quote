@@ -48,6 +48,7 @@
         .card {
             margin-bottom: 2%;
             background-color: aliceblue;
+            border-radius: 10px;
         }
         
         #date {
