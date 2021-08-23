@@ -26,10 +26,10 @@
             padding-bottom: 5%;
         }
         
-        #name {
+        /* #name {
             color: darkcyan;
             font-weight: normal;
-        }
+        } */
         
         .all-cards {
             display: flex;
