@@ -42,6 +42,7 @@
         #quotes-button {
             float: right;
             margin-right: 22px;
+            margin-top: -5px;
         }
         
         .card {
